@@ -1,2 +1,2 @@
-# cockroachdb-single-node
-Docker images for running CockroachDB as a single node without a further command.
+# CockroachDB Single Node Docker Image
+Orignally from [the CockroachLabs field team](https://github.com/cockroachlabs-field/cockroachdb-single-node). This is useful to run a single node CockroachDB as a [GitHub Actions Service Container](https://docs.github.com/en/actions/using-containerized-services/about-service-containers), as [these do not support commands](https://github.com/orgs/community/discussions/52675). The images are versioned  so that a specific version of CockroachDB can be targetted.
